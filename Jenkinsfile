@@ -5,7 +5,7 @@ a  gent any
         steps{
           echo 'Hi! My name is Ahmed'
           sh './gradlew.build --no-daemon'
-          archiveArrifacts artifacts: 'dist/trainSchedule.zip
+          archiveArrifacts artifacts: 'dist/trainSchedule.zip'
         }
     }
   }
